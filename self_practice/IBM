@@ -1,0 +1,11 @@
+fig, axes plt.subplots (2, 3, figsize=(16, 10)) fig.suptitle('Feature Distributions', fontsize=16, fontweight='bold')
+
+Customer_df['Age').hist(ax-axes [0, 0], b * 1ns = 20 color='skyblue', edgecolor='black') axes[0, 0].set_title('Age Distribution')
+
+Customer_df['Monthly_Spending'].hist(ax=axes [0, 1], b * 1ns = 20 color='lightcoral', edgecolor='black') axes[0, 1].set_title('Monthly Spending Distribution')
+
+stomer_df['Subscription_Length'].hist (ax-axes [0, 2], b * 1ns = 10 color='lightgreen', edgecolor='black') axes[0, 2].set_title('Subscription Length Distribution')
+
+Customer_df['Support_Interactions'].hist(ax=axes [1, 0), bins=6, color='lightyellow', edgecolor='black') axes[1, 0].set_title('Support Interactions Distribution')
+
+Customer_df['Gender'].value_counts().plot(kind='bar', ax=axes [1, 1], color=['steelblue', 'salmon']) axes[1, 1].set_title('Gender Distribution')
